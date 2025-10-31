@@ -72,6 +72,12 @@ fun FormDataDiri(modifier: Modifier = Modifier) {
                 .padding(top = 80.dp, bottom = 16.dp, start = 10.dp, end = 100.dp)
         )
 
+        ElevatedCard(
+            modifier = Modifier
+                .padding(16.dp)
+                .fillMaxWidth(0.9f),
+            elevation = CardDefaults.cardElevation(defaultElevation = 8.dp),
+
 
 
 
