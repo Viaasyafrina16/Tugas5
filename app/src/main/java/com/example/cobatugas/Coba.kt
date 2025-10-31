@@ -68,6 +68,11 @@ fun FormDataDiri(modifier: Modifier = Modifier) {
             textAlign = TextAlign.Start,
             modifier = Modifier
                 .fillMaxWidth()
+                .background(Color(0xFF9575CD))
+                .padding(top = 80.dp, bottom = 16.dp, start = 10.dp, end = 100.dp)
+        )
+
+
 
 
 }
