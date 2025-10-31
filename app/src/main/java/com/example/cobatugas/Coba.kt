@@ -124,6 +124,30 @@ fun FormDataDiri(modifier: Modifier = Modifier) {
                     }
                 }
 
+                Text(
+                    text = "STATUS PERKAWINAN",
+                    fontWeight = FontWeight.Normal,
+                    color = Color.Black,
+                    modifier = Modifier.padding(top = 12.dp)
+                )
+                statusList.forEach { item ->
+                    Row(
+                        modifier = Modifier
+                            .selectable(
+                                selected = textStatus == item,
+                                onClick = { textStatus = item }
+                            )
+                            .padding(vertical = 4.dp),
+                        verticalAlignment = Alignment.CenterVertically
+                    ) {
+                        RadioButton(
+                            selected = textStatus == item,
+                            onClick = { textStatus = item }
+                        )
+                        Text(item)
+                    }
+                }
+
 
 
 
