@@ -56,6 +56,9 @@ fun FormDataDiri(modifier: Modifier = Modifier) {
     Column(
         modifier = Modifier
             .fillMaxSize()
+            .background(Color(0xFFEDE7F6)),
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
 
 
 }
