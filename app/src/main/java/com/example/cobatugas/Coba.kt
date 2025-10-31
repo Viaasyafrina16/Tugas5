@@ -38,3 +38,5 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 
 
+@Composable
+fun FormDataDiri(modifier: Modifier = Modifier) {
