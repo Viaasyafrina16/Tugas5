@@ -91,7 +91,31 @@ fun FormDataDiri(modifier: Modifier = Modifier) {
                     fontWeight = FontWeight.Normal,
                     color = Color.Black
                 )
+                OutlinedTextField(
+                    value = textNama,
+                    onValueChange = { textNama = it },
+                    singleLine = true,
+                    label = { Text("Isian nama lengkap") },
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(bottom = 16.dp)
+                )
 
+                Text(
+                    text = "JENIS KELAMIN",
+                    fontWeight = FontWeight.Normal,
+                    color = Color.Black
+                )
+                genderList.forEach { item ->
+                    Row(
+                        modifier = Modifier
+                            .selectable(
+                                selected = textJK == item,
+                                onClick = { textJK = item }
+                            )
+                            .padding(vertical = 4.dp),
+                        verticalAlignment = Alignment.CenterVertically
+                    ) {
 
 
 
