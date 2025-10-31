@@ -80,6 +80,12 @@ fun FormDataDiri(modifier: Modifier = Modifier) {
             colors = CardDefaults.cardColors(containerColor = Color.White)
         ) {
 
+            Column(
+                modifier = Modifier
+                    .padding(20.dp),
+                horizontalAlignment = Alignment.Start
+            ) {
+
 
 
 
