@@ -171,7 +171,17 @@ fun FormDataDiri(modifier: Modifier = Modifier) {
                     },
                     modifier = Modifier
                         .fillMaxWidth()
-                        .height(45.dp),
+                        .height(45.dp),colors = ButtonDefaults.buttonColors(
+                        containerColor = Color(0xFF7E57C2)
+                    )
+                ) {
+                    Text(text = "Submit", color = Color.White)
+                }
+            }
+        }
+    }
+}
+
 
 
 
