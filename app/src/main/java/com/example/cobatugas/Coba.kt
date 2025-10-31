@@ -86,6 +86,12 @@ fun FormDataDiri(modifier: Modifier = Modifier) {
                 horizontalAlignment = Alignment.Start
             ) {
 
+                Text(
+                    text = "NAMA LENGKAP",
+                    fontWeight = FontWeight.Normal,
+                    color = Color.Black
+                )
+
 
 
 
