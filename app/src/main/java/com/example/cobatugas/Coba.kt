@@ -162,9 +162,22 @@ fun FormDataDiri(modifier: Modifier = Modifier) {
                         .fillMaxWidth()
                         .padding(bottom = 20.dp)
                 )
+                Button(
+                    onClick = {
+                        nama = textNama
+                        jenis = textJK
+                        status = textStatus
+                        alamat = textAlamat
+                    },
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .height(45.dp),
 
 
 
 
 
-            }
+
+
+
+
